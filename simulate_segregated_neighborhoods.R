@@ -11,8 +11,8 @@ s = function(x){summary(factor(x))}
 
 ####################################################################################################
 #Set global parameters
-xlim = 100 #neighborhood size x. call this meters. or km if this is city scale??
-ylim = 100 #neighborhood size y. call this meters. or km if this is city scale??
+xlim = 100 #neighborhood size x. 
+ylim = 100 #neighborhood size y. 
 ngrid = 10 #number of grid spaces
 ####################################################################################################
 
