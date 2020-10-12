@@ -99,7 +99,7 @@ nclust2 <- function(x0, y0, radius, n, types=c("yes", "no"), p) {
 }
 
 #Function to generate segregated clusters
-#Nonsegregated version: Type is NOT determined cluster, ie each cluster can have minority and nonminority members
+#Nonsegregated version: Type is NOT determined by cluster, ie each cluster can have minority and nonminority members
 nclust1 <- function(x0, y0, radius, n) {
   X <- runifdisc(n, radius, centre=c(x0, y0))
   return(X)
